@@ -73,7 +73,7 @@ img {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  width: 200px;
+  width: 300px;
   transition: all 0.5s;
 }
 
