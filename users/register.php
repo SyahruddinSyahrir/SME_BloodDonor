@@ -123,7 +123,7 @@ include 'layout/navbar.php';
                     <div class="form-group">
                         <label class="form-label col-md-4"></label>
                         <div class="col-md-8">
-                            <button class="btn btn-success" name="submitBtn" >Join</button>
+                            <button class="btn btn-success" name="submitBtn" ><a href="../index.php">Join</a></button>
                         </div>
                     </div>
                 </form>
