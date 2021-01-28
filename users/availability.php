@@ -79,7 +79,8 @@ bodyss {
   transform-origin: top center;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  background: repeating-linear-gradient(-45deg, #c1ab8e, #c1ab8e 10px, #e74c3c 10px, #e74c3c 20px, #c1ab8e 20px, #c1ab8e 30px, #1e90ff 30px, #1e90ff 40px) 0 0/100% 5px no-repeat, #c1ab8e;
+  background: repeating-linear-gradient(-45deg, #c1ab8e, #c1ab8e 10px, #e74c3c 10px, #e74c3c 20px, #c1ab8e 20px, 
+      #c1ab8e 30px, #1e90ff 30px, #1e90ff 40px) 0 0/100% 5px no-repeat, #c1ab8e;
   z-index: 4;
   -webkit-clip-path: polygon(5% 40%, 50% 100%, 95% 40%, 100% 0, 0 0);
           clip-path: polygon(5% 40%, 50% 100%, 95% 40%, 100% 0, 0 0);
@@ -98,14 +99,18 @@ bodyss {
   top: 0;
   left: 0;
   z-index: 3;
-  background: repeating-linear-gradient(-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, #e74c3c 20px, #cebda6 20px, #cebda6 30px, #1e90ff 30px, #1e90ff 40px) 0 100%/100% 5px no-repeat, repeating-linear-gradient(-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, #e74c3c 20px, #cebda6 20px, #cebda6 30px, #1e90ff 30px, #1e90ff 40px) 0 100%/5px 100% no-repeat, repeating-linear-gradient(-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, #e74c3c 20px, #cebda6 20px, #cebda6 30px, #1e90ff 30px, #1e90ff 40px) 100% 100%/5px 100% no-repeat, #cebda6;
+  background: repeating-linear-gradient(-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, #e74c3c 20px, #cebda6 20px, #cebda6 30px, 
+      #1e90ff 30px, #1e90ff 40px) 0 100%/100% 5px no-repeat, repeating-linear-gradient(-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, 
+          #e74c3c 20px, #cebda6 20px, #cebda6 30px, #1e90ff 30px, #1e90ff 40px) 0 100%/5px 100% no-repeat, repeating-linear-gradient
+      (-45deg, #cebda6, #cebda6 10px, #e74c3c 10px, #e74c3c 20px, #cebda6 20px, #cebda6 30px, #1e90ff 30px, #1e90ff 40px) 100% 100%/5px 100% no-repeat, #cebda6;
   -webkit-clip-path: polygon(80% 40%, 100% 0, 100% 100%, 0 100%, 0 0, 20% 40%);
           clip-path: polygon(80% 40%, 100% 0, 100% 100%, 0 100%, 0 0, 20% 40%);
 }
 .envelope__back:after {
   height: 100%;
   width: 100%;
-  background: repeating-linear-gradient(-45deg, #c7b49a, #c7b49a 10px, #e74c3c 10px, #e74c3c 20px, #c7b49a 20px, #c7b49a 30px, #1e90ff 30px, #1e90ff 40px) 0 100%/100% 5px no-repeat, #c7b49a;
+  background: repeating-linear-gradient(-45deg, #c7b49a, #c7b49a 10px, #e74c3c 10px, #e74c3c 20px, #c7b49a 20px, #c7b49a 30px, #1e90ff 30px, 
+      #1e90ff 40px) 0 100%/100% 5px no-repeat, #c7b49a;
   content: '';
   position: absolute;
   top: 0;
@@ -261,12 +266,13 @@ bodyss {
     <div class="letter">
       <div class="letter__content">
         <p>Hey! 👋</p>
-        <p>This is where you can check the availability of the blood type that you needed. If in case of emergency you can contact us by calling +60109087975 or you can send email to <a href="mailto:blood_bank21@gmail.com
-">our management teams</a></p>
+        <p>This is where you can check the availability of the blood type that you needed. If in case of emergency you can contact us by 
+            calling +60109087975 or you can send email to <a href="mailto:blood_bank21@gmail.com">our management teams</a></p>
       </div>
       <div class="letter__content"></div>
       <div class="letter__content">
-        <p>Stay safe and dont forget to follow the SOP. Let us embrace the new norm for better future. Together we will end the Covid-19 pandemic.</p><span class="sign-off">Thank you</span>
+        <p>Stay safe and dont forget to follow the SOP. Let us embrace the new norm for better future. Together we will end the 
+            Covid-19 pandemic.</p><span class="sign-off">Thank you</span>
       </div>
     </div>
   </div>
