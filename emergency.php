@@ -135,12 +135,8 @@ include 'layout/_top_nav.php';
                             <td><?= $d['b_type']; ?></td>
 				
                         </tr>
-			<? 
-			$location = "hospital";
-			if($d['city']=="Selangor")
-			{
-				$location = "Hospital Tengku Ampuan Rahimah Klang";
-			}
+			<?= 
+			
 			
 			$phone= $d['mobile'];
 			$message= "Hello sir/madam , we are from Blood Bank , currently we need your type of blood to help our 
@@ -151,7 +147,7 @@ include 'layout/_top_nav.php';
 			];
 			$json = json_encode($data); // Encode data to JSON
 			// URL for request POST /message
-			$url = 'https://eu138.chat-api.com/instance217009/message?token=7thsblhx453bhpio';			
+			$url = 'https://eu182.chat-api.com/instance220847/message?token=agq3ix654237p7l2';			
 			// Make a POST request
 			$options = stream_context_create(['http' => [
         		'method'  => 'POST',
